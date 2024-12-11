@@ -1,0 +1,89 @@
+/************ Ajustando o fundo da página e a fonte ************/
+
+body {
+  background-color: #e9e4bb;
+  font-family: "Irish Grover", sans-serif;
+}
+
+/**************** Criando um container de fundo para incorporar os demais elementos ****************/
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  background: #e9e4bb;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/****************** Ajuste dos formularios de e-mail e senha ******************/
+
+input::placeholder {
+  color: #a89907;
+  font-weight: 500;
+}
+
+input.form-control {
+  background-color: #e9e4b5;
+  color: #a89907;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: none;
+  margin-bottom: 0.5rem;
+}
+
+/******* Ajuste dos links para criar conta e recuperar senha *******/
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/************** Espaçamento ajustado para links e campos **************/
+
+.text-center.mt-3 {
+  margin-top: 0.2rem;
+}
+
+.text-center.mt-5 {
+  margin-top: 2rem;
+}
+
+/**************************** Ajustando o botão conectar ****************************/
+
+.btn-custom {
+  background-color: #e9e4b5;
+  color: #a89907;
+  border-radius: 50px;
+  border: 2px solid #000;
+  margin-top: 1.5rem;
+}
+
+/************** Ajuste para os check-box "Lembrar dados" **************/
+
+.form-check {
+  background-color: #e9e4bb;
+  border-radius: 8px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -0.5rem;
+}
+
+.form-check-input {
+  background-color: #e9e4bb;
+  border: 2px solid #000;
+  margin-right: 10px;
+}
+
+/****** Ajuste do texto "Outros métodos de acesso" ******/
+p {
+  text-decoration: underline;
+}

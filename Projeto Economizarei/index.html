@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Economizarei</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Font Irish Grover -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./assets/css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="container vh-100 d-flex align-items-center justify-content-center"
+    >
+      <div class="login-container">
+        <img src="./assets/images/logo.png" alt="Logo Economizarei" />
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Informe seu e-mail"
+            />
+          </div>
+          <div class="text-center mt-3">
+            <a href="#">Criar conta</a>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label btn-conectar"></label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Informe sua senha"
+            />
+          </div>
+          <div class="text-center mt-3">
+            <a href="#">Recuperar senha</a>
+          </div>
+          <button type="submit" class="btn btn-custom w-100">Conectar</button>
+
+          <!-- Lembrar dados Checkbox -->
+          <div class="form-check text-center mt-3">
+            <input class="form-check-input" type="checkbox" id="remember" />
+            <label class="form-check-label" for="remember">Lembrar dados</label>
+          </div>
+        </form>
+
+        <div class="text-center mt-3">
+          <p>Outros métodos de acesso:</p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="https://accounts.google.com/signin">
+              <img
+                src="./assets/images/google.png"
+                alt="Google"
+                style="height: 50px"
+              />
+            </a>
+            <a href="https://appleid.apple.com/">
+              <img
+                src="./assets/images/apple.png"
+                alt="Apple"
+                style="height: 50px"
+              />
+            </a>
+            <a href="https://www.facebook.com/login/">
+              <img
+                src="./assets/images/facebook.png"
+                alt="Facebook"
+                style="height: 50px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
